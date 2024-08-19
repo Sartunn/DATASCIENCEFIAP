@@ -1,0 +1,12 @@
+Regra de Negócio 24:
+Para os Clientes que avaliam 5 (cinco) vídeos no site ganhará 1 (um) 
+ponto que, será convertido em real (R$) para ser utilizado na sua 
+próxima compra, para tanto, o id da avaliação deverá ter relacionamento
+ com o código do cliente. Um id poderá ter várias avaliações mas um 
+cliente só pode avaliar uma única vez um id de avaliação. 
+As informações que deverão ser informadas são: Código do cliente, Id da
+ avaliação, quantidade de avaliações (aplicar Check Constraint para 
+maiores que cinco), pontos em moeda real. 
+
+*No diagrama a entidade para a RN24 está nomeada como
+ “SGV_PONTO_AVALIACAO”
